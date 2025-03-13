@@ -473,10 +473,13 @@
 				
 				// Sample suggestions
 				const sampleSuggestions = [
-					"What can you help me with?",
+					"What is the capital of France?",
+                    "What is the weather in Chennai?",
+                    "What is the weather of my location?",
 					"Tell me a fun fact",
 					"How does AI work?",
-					"Write a short poem"
+					"Write a short poem",
+                    "Tell me a joke",
 				];
 				
 				// Show suggestions function
@@ -617,13 +620,13 @@
 							{
 								method: 'POST',
 								headers: {
-									Authorization: 'Bearer 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',
+									Authorization: 'Bearer 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',
 									'HTTP-Referer': 'https://www.webstyle.com',
 									'X-Title': 'webStylePress',
 									'Content-Type': 'application/json',
 								},
 								body: JSON.stringify({
-									model: 'deepseek/deepseek-r1:free',
+									model: 'google/gemma-3-27b-it:free',
 									messages: [{ role: 'user', content: input }],
 								}),
 							},
