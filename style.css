@@ -1,0 +1,26 @@
+:root {
+    --primary: #FF6500;
+    --secondary: #1E3E62;
+    --accent: #FF6500;
+    --dark-bg: #000000;
+    --card-bg: #0B192C;
+    --input-bg: #1E3E62;
+    --text: #E0E0E0;
+    --text-secondary: #9E9E9E;
+    --gradient: linear-gradient(135deg, #FF6500, #FF8C42);
+    --accent-gradient: linear-gradient(135deg, #1E3E62, #0B192C);
+    --glow: 0 0 15px rgba(255, 101, 0, 0.5);
+}
+
+/* Add all other styles here from the original style block */
+body {
+    background-color: var(--dark-bg);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Continue with the rest of the CSS rules... */
